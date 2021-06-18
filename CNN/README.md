@@ -2,7 +2,8 @@
 
 ## Training
 请使用以下两行代码训练两个CNN模型
-python main.py --model "VGG19"
+python main.py --model "VGG19"                             
+
 python main.py --model "VGG19_pro"
 
 ## Models
