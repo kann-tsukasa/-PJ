@@ -3,11 +3,13 @@
 ## Training
 请使用以下两行代码训练两个CNN模型          
 
-### 32$\times$32输入
+### 32*32输入 VGG19
 python main.py --model VGG19                            
 
+### 224*224输入 添加9层后的VGG19
 python main.py --model VGG19_pro
 
+### 224*224输入 删除一层后的VGG11
 python main.py --model VGG11_mini
 
 ## Models
